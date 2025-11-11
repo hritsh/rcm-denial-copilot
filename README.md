@@ -2,6 +2,8 @@
 
 a quick project i hacked together in a weekend to explore the capabilities of llms in the revenue cycle management space. it uses a fastapi backend (making calls to the gemini api) and a react frontend to assist medical billers in analyzing and addressing claim denials and automating the process where possible.
 
+hosted on [vercel](https://rcm-denial-copilot.vercel.app/)
+
 ## stuff used
 
 - [this dataset](https://www.kaggle.com/datasets/abuthahir1998/synthetic-healthcare-claims-dataset) i found on kaggle that had synthetic medical claim data with denial info which was super helpful to populate the database cause i didnt have to make up my own
@@ -28,6 +30,8 @@ a quick project i hacked together in a weekend to explore the capabilities of ll
 - [gemini api](https://developers.generativeai.google/products/gemini) for analyzing claim denials and translating medical codes
 - [react + vite + typescript](https://vitejs.dev/guide/) for the frontend
 - [shadcn/ui](https://shadcn.com/ui) with tailwind for some prebuilt react components to build the frontend quickly
+- [tanstack table](https://tanstack.com/table/v8) for building the claim data table with sorting and filtering
+- [render.com](https://render.com/) for hosting the backend api and [vercel](https://vercel.com/) for hosting the frontend app
 
 ## features
 
