@@ -1,0 +1,22 @@
+Claim ID,Provider ID,Patient ID,Date of Service,Billed Amount,Procedure Code,Diagnosis Code,Allowed Amount,Paid Amount,Insurance Type,Claim Status,Reason Code,Follow-up Required,AR Status,Outcome
+0HO1FSN4AP,0126528997,7936697103,08/07/2024,304,99231,A02.1,218,203,Self-Pay,Paid,Incorrect billing information,Yes,Pending,Partially Paid
+9U86CI2P5A,6986719948,1547160031,06/21/2024,348,99213,A16.5,216,206,Medicare,Paid,Pre-existing condition,Yes,Open,Denied
+1QEU1AIDAU,1355108115,2611585318,07/04/2024,235,99213,A00.1,148,119,Commercial,Denied,Duplicate claim,Yes,Denied,Denied
+WH7XDS8CEO,9991055906,7167948632,05/26/2024,112,99215,A18.6,79,69,Medicare,Denied,Authorization not obtained,No,Partially Paid,Denied
+M6OJEZ8KGI,7382167012,2140226267,07/16/2024,406,99238,A17.9,320,259,Medicare,Denied,Authorization not obtained,No,On Hold,Denied
+NST1AJ3BG4,2460400334,5437847378,06/04/2024,272,99231,A02.1,202,176,Self-Pay,Paid,Patient eligibility issues,No,Pending,Partially Paid
+G7C9QQKWHN,4996652383,1558663046,07/28/2024,358,99221,A01.9,249,202,Medicare,Denied,Incorrect billing information,No,Closed,Paid
+GTGZLOTL2C,7437563222,5362322108,05/30/2024,365,99213,A07.8,252,205,Medicaid,Under Review,Patient eligibility issues,No,Open,Paid
+TLU7MTJ63J,6675789567,1861061750,07/16/2024,126,99238,A05.4,109,108,Medicare,Denied,Authorization not obtained,No,Closed,Partially Paid
+44K5PG8X8S,7933652528,2435590086,05/02/2024,342,99221,A09.9,258,251,Medicare,Paid,Patient eligibility issues,No,On Hold,Partially Paid
+TO2JYK61C0,2267536625,0825710946,05/12/2024,141,99221,A03.9,92,81,Medicare,Under Review,Pre-existing condition,Yes,Denied,Partially Paid
+DOX1BBCXK5,5416951835,7549905083,05/11/2024,113,99223,A02.2,79,77,Medicaid,Under Review,Lack of medical necessity,No,On Hold,Denied
+LH04A1LY4B,1241540640,3992634482,06/08/2024,248,99233,A06.0,202,186,Self-Pay,Under Review,Service not covered,Yes,Partially Paid,Partially Paid
+2ETLXC20SI,3512772966,7459859155,06/28/2024,162,99233,A06.0,99,86,Commercial,Denied,Authorization not obtained,Yes,Open,Paid
+2VO26C5QLH,1637431064,0651880351,08/10/2024,493,99233,A07.0,366,360,Medicaid,Paid,Pre-existing condition,No,Partially Paid,Paid
+BCCMJ8LJ96,3104304757,5311844927,07/02/2024,260,99213,A03.3,178,172,Medicaid,Denied,Patient eligibility issues,Yes,Denied,Denied
+08283DU65I,9639529144,0177264715,08/24/2024,126,99221,A00.9,95,94,Medicaid,Under Review,Duplicate claim,No,Pending,Denied
+1EO0LLBIBO,7500072920,7385589180,09/11/2024,311,99231,A05.0,280,274,Medicaid,Under Review,Service not covered,No,Denied,Paid
+640R5YIQ6A,6359854192,6031973951,08/27/2024,408,99214,A04.2,262,219,Medicaid,Paid,Patient eligibility issues,Yes,Pending,Paid
+BLI177KZBU,2266791454,3748293535,08/23/2024,130,99231,A16.9,98,82,Self-Pay,Denied,Lack of medical necessity,No,Denied,Paid
+T3ZDMQHOSX,2491663842,6867451346,07/30/2024,146,99213,A08.1,102,99,Medicaid,Under Review,Authorization not obtained,Yes,Denied,Partially Paid
