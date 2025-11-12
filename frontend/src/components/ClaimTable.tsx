@@ -113,7 +113,22 @@ export function ClaimTable({
             },
             {
                 accessorKey: "claimStatus",
-                header: "Status",
+                header: ({ column }) => {
+                    const sorted = column.getIsSorted();
+                    const Icon = sorted === "asc" ? ArrowUp : sorted === "desc" ? ArrowDown : ArrowUpDown;
+                    return (
+                        <Button
+                            type="button"
+                            variant="ghost"
+                            size="sm"
+                            className="h-8 w-full justify-start gap-2 px-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground"
+                            onClick={column.getToggleSortingHandler()}
+                        >
+                            Status
+                            <Icon className="size-3.5 text-muted-foreground/80" />
+                        </Button>
+                    );
+                },
                 cell: ({ row }) => (
                     <Badge variant="outline" className={cn("border px-2 py-1 text-xs", getStatusClass(row.original.claimStatus))}>
                         {row.original.claimStatus}

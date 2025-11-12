@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import type { MouseEvent } from "react";
 import { Header } from "./components/Header";
 import { ClaimTable } from "./components/ClaimTable";
@@ -77,10 +77,10 @@ export default function App() {
     setStatusUpdating(false);
   }, [selectedClaim]);
 
-  const actionableClaims = useMemo(
-    () => claims.filter((claim) => ["Denied", "Under Review"].includes(claim.claimStatus)),
-    [claims]
-  );
+  // const actionableClaims = useMemo(
+  //   () => claims.filter((claim) => ["Denied", "Under Review"].includes(claim.claimStatus)),
+  //   [claims]
+  // );
 
   const analyzeClaim = useCallback(async (claim: Claim): Promise<AnalysisResult> => {
     const raw = await fetchJson<Record<string, unknown>>("/api/analyze", {
@@ -326,7 +326,7 @@ export default function App() {
           />
         ) : (
           <ClaimTable
-            claims={actionableClaims}
+            claims={claims}
             isLoading={isLoadingClaims}
             error={claimsError}
             translatingKey={translatingKey}

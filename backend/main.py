@@ -219,5 +219,10 @@ async def update_claim_status(request: StatusUpdateRequest) -> Dict[str, Any]:
     updated_record = df.loc[mask].iloc[0].fillna("").to_dict()
     return {"claim": updated_record}
 
+
+@app.get("/api/health")
+async def health_check() -> Dict[str, str]:
+    return {"status": "ok"}
+
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)

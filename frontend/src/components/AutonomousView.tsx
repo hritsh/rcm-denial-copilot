@@ -34,7 +34,9 @@ export function AutonomousView({
     onAnalyzeClaim,
     onPerformStatusUpdate,
 }: AutonomousViewProps) {
-    const deniedClaims = useMemo(() => claims.filter((claim) => claim.claimStatus === "Denied"), [claims]);
+    // filter to max 8 denied claims for processing to avoid rate limits
+    const deniedClaims = useMemo(() => claims.filter((claim) => claim.claimStatus === "Denied").slice(0, 8), [claims]);
+
 
     const [tasks, setTasks] = useState<AutonomousTask[]>([]);
     const [loading, setLoading] = useState<boolean>(false);
