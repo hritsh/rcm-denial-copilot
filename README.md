@@ -1,10 +1,18 @@
-<img src="./public/rcm-denial-copilot.svg" width="64" height="64" alt="copilot icon" />
+<img src="./frontend/public/rcm-denial-copilot.svg" width="64" height="64" alt="copilot icon" />
 
 # RCM Denial Copilot
 
 a tool that uses generative ai to assist medical billers in automating and streamlining the process of analyzing and addressing medical claim denials. it uses a fastapi backend (making calls to the gemini api) and a react frontend.
 
-hosted on [vercel](https://rcm-denial-copilot.vercel.app/)
+<p align="center">
+  <img src="./frontend/public/demo.gif" alt="demo" width="800"/>
+  <br/>
+</p>
+
+hosted and running on [vercel](https://rcm-denial-copilot.vercel.app/)
+
+> [!NOTE]
+> initial load time may be slow as the backend wakes up from idling on render.com
 
 ## feature overview
 
