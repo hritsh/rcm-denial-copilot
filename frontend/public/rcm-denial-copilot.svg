@@ -1,0 +1,8 @@
+<svg viewBox="5 0 70 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(-10, -10)">
+    <path d="M50 10C30 10 15 20 15 35V55C15 75 30 87.5 50 95C70 87.5 85 75 85 55V35C85 20 70 10 50 10Z" fill="#1e293b"/>
+    <rect x="42.5" y="30" width="15" height="40" rx="2.5" fill="white"/>
+    <rect x="30" y="42.5" width="40" height="15" rx="2.5" fill="white"/>
+    <circle cx="75" cy="25" r="10" fill="#00c6fb"/>
+  </g>
+</svg>
